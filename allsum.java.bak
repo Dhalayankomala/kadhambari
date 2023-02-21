@@ -1,0 +1,45 @@
+import java.util.Scanner;
+class D
+{
+  public static void main(String []args)
+  {
+    Scanner s=new Scanner(System.in);
+	
+	int Positive=0, Negative=0, Odd=0, Even=0, Zero=0;
+     for(int i=1; i<=10; i++)
+       {
+	      System.out.println("Enter the number");
+		  int a=s.nextInt();
+		  if(a>0)
+		  {
+		   Positive++;
+		  }
+		  if(a<0)
+		  {
+		   Negative--;
+		  }
+		  if(a==0)
+		  {
+		   Zero++;
+		  }
+		  if(a%2==0)
+		  {
+		   Even++;
+		  }
+		  if(a%2==1)
+		  {
+		   Odd++;
+		  }
+		  System.out.println("Positive");
+		  
+		  System.out.println("Negative");
+		  
+		  System.out.println("Zero");
+		  
+		  System.out.println("Even");
+		  
+		  System.out.println("Odd");
+		  
+        }	   
+  }
+}

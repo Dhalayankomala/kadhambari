@@ -1,0 +1,23 @@
+class A
+{
+  public void add()
+  {
+    System.out.println("parent class");
+  }
+}
+class B extends A
+{
+  public void sub()
+  {
+    System.out.println("child class");
+  }
+}
+  
+public static void main(String []args)
+{
+  B a=new B();
+  a.sub();
+  a.add();
+  A s=new A();
+  s.add();
+}

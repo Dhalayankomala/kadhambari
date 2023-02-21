@@ -1,0 +1,22 @@
+class C
+{
+ int a=10;
+}
+class D
+{
+  C e=new C();
+  
+  
+    
+	int b=5;
+	 int c =e.a+b;
+}
+class Main
+{
+	public static void main(String []args)
+	{
+		D e1 =new D();
+		
+		System.out.println(e1.c);
+	}
+}

@@ -1,0 +1,22 @@
+class Comarray
+{
+ public static void main(String []args)
+ {
+   int a[i]={1,2,3};
+   int b[j]={1,3,5,7};
+   int count=0;
+   for (int i=0; i<3; i++)
+   {
+   for(int j=0; j<5; j++)
+   {
+   if(a[i]=b[j])
+   {
+     count++;
+	
+   }
+   
+ }
+ System.out.println(count);
+ }
+ }
+}

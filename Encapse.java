@@ -1,0 +1,41 @@
+
+class Encapse
+{
+ private String Name;
+ private int Count;
+ private int Amount;
+ private int Total;
+ 
+ public void setName(String Name)
+ {
+   this.Name=Name;
+ }
+ public void setCount(int Count)
+ {
+   this.Count=Count;
+ }
+ public void setAmount(int Amount)
+ {
+   this.Amount=Amount;
+ }
+ public void setTotal()
+ {
+   Total=Count*Amount;
+ }
+ public String getName()
+ {
+   return Name;
+ }
+ public int getCount()
+ {
+   return Count;
+ }
+ public int getAmount()
+ {
+   return Amount;
+ }
+ public int getTotal()
+ {
+   return Total;
+ }
+}
